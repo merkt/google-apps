@@ -1,0 +1,30 @@
+{
+  "name": "google-apps",
+  "version": "0.0.1",
+  "description": "Seeks to emulate the Google Apps Script API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/merkt/google-apps.git"
+  },
+  "keywords": [
+    "google"
+  ],
+  "author": "Mark Thompson <complement@gmail.com> (http://marknt.co.uk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/merkt/google-apps/issues"
+  },
+  "homepage": "https://github.com/merkt/google-apps#readme",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "devDependencies": {
+    "babel-register": "^6.24.1",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0"
+  }
+}
